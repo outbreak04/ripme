@@ -36,7 +36,7 @@ public class nudeslolRipper extends AbstractHTMLRipper {
         if (m.matches()) {
             return m.group(1);
         }
-        throw new MalformedURLException("Expected imgbox.com URL format: " +
+        throw new MalformedURLException("Expected nudes.lol URL format: " +
                         "nudes.lol/g/albumid - got " + url + "instead");
     }
 
